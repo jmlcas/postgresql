@@ -26,6 +26,8 @@ services:
     depends_on:
       - postgres
     volumes:
-       - ./pgadmin:/var/lib/pgadmin
-
+       - pgadmin:/var/lib/pgadmin
+       
+volumes:
+  pgadmin:
 
