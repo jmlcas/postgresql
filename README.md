@@ -3,12 +3,15 @@ PostgreSQL + pgAdmin
 
 Ver en "http://localhost:8200"
 
+------------------------
+
 Login:
 
 Email: admin@example.com
 
 Password: admin
 
+------------------------
 
 Conexión:
 
