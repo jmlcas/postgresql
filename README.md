@@ -3,11 +3,11 @@ PostgreSQL + pgAdmin
 
 Ver en "http://localhost:8200"
 
-Login:-
+Login:
 
 Email: admin@example.com
 
-Password: p4ssw0rd
+Password: admin
 
 
 Conexión:
@@ -18,7 +18,7 @@ Port: 5432
 
 Database: postgres
 
-Username: admin
+Username: postgres
 
-Password: p4ssw0rd
+Password: postgres
 
