@@ -5,13 +5,13 @@ services:
     container_name: postgres
     restart: unless-stopped
     environment:
-      POSTGRES_USER: mi_usuario
-      POSTGRES_PASSWORD: mi_contraseña
-      POSTGRES_DB: mi_base_de_datos
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
     ports:
       - "5432:5432"
     volumes:
-      - ./data:/var/lib/postgresql/data
+      - pgdata:/var/lib/postgresql/data
      
   pgadmin:
     image: dpage/pgadmin4:latest
@@ -24,3 +24,9 @@ services:
       - "8200:80"
     depends_on:
       - postgres
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin 
+
+volumes:
+  pgdata:
+  pgadmin-data:
