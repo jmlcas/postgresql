@@ -24,6 +24,3 @@ services:
       - "8200:80"
     depends_on:
       - postgres
-    volumes:
-      - ./pgadmin:/var/lib/pgadmin
-
