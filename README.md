@@ -1,16 +1,17 @@
-# postgres
-PostgreSQL + pgAdmin - Docker-compose
+# PostgreSQL
+PostgreSQL + pgAdmin 
 
-Ver en "localhost:8200"
+Ver en "http://localhost:8200"
 
-Login -
+Login:-
 
 Email: admin@example.com
 
-Password:p4ssw0rd
+Password: p4ssw0rd
 
 
-Conexión -
+Conexión:
+
 Host: postgres
 
 Port: 5432
